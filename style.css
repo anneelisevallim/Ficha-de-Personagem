@@ -1,0 +1,153 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+   background: #99cade; 
+   background: linear-gradient(90deg,rgba(153, 202, 222, 1) 0%, rgba(203, 135, 222, 1) 53%, rgba(255, 191, 235, 1) 100%);
+    }
+.topo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-topo {
+    width: 900px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #9eddf6;
+}
+
+.conteiner-topo > div {
+    padding: 10px;
+}
+
+.conteiner-topo > div p {
+    color: #62d0fc;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteiner-topo > div input {
+    height: 30px;
+    width: 200px;
+    border-radius:5px ;
+    padding-left: 10px;;
+}
+
+.conteiner-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.sessao-conteudo-principal {
+    width: 900px;
+    height: 600px;
+    background-color: #9eddf6;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    padding: 50px 0px;
+}
+
+.conteiner-modificadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.conteiner-modificadores > div p {
+    text-align: center;
+    font-weight: bold;
+    color: #99cade;
+}
+
+.conteiner-modificadores > div input {
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    padding: 5px;
+}
+.conteiner-vdv-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-vdv {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-left: 50px;
+}
+
+.conteiner-vdv > div p {
+    text-align: center;
+    font-weight: bold;
+    color: #99cade;
+}
+
+.conteiner-vdv > div input {
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    padding: 5px;
+}
+
+.conteiner-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-img img {
+    width: 100%;
+    height: 100%;
+    padding: 50px; 
+}
+
+.conteiner-biogrfia {
+    display: flex;
+    font-display: column;
+    align-items: center;
+}
+
+.conteiner-biografia h2 {
+    padding-bottom: 15px;
+    color: #99cade;
+}
+
+.conteiner-biografia textarea {
+    border-radius: 10px;
+    resize: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.sessao-conteudo-secundario {
+    width: 900px;
+    height: 300px;
+    background-color: #9eddf6 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    color: #99cade
+}
+
+.sessao-conteudo-secundario textarea {
+    border-radius: 10px;
+    width: 90%;
+}
